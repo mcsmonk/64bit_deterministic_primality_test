@@ -69,7 +69,15 @@ int deterministic_mr_64bit_prime_test(unsigned long n)
 			result = 0;
 			goto mr_end;
 		}
+		mpz_clear(b);
 	}
+	mpz_clear(temp);
+	mpz_clear(b);
+	mpz_clear(mod);
+	mpz_clear(n_minus_1);
+	mpz_clear(q);
+
+	return result;
 
 mr_end:
 	mpz_clear(temp);

@@ -1,5 +1,7 @@
 # deterministic-primality-test-on-64bits
 
+[![HitCount](http://hits.dwyl.io/mcsmonk/deterministic-primality-test-on-64bits.svg)](http://hits.dwyl.io/mcsmonk/deterministic-primality-test-on-64bits)
+
 This program is implementation of deterministic primality test on 64-bit integer using miller-rabin algorithm with first eight prime bases
 
 Algorithm is based on following paper.
